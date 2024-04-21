@@ -29,6 +29,8 @@ Jetzt kann man über die oben genannte Admin-Seite mit dem genannten SuperUser i
 
 
 
+
+
 ENGLISH
 
 Hours of use(in electricity)_APP can be used via the Django admin page http://127.0.0.1:8000/admin/upload/ and there you can upload an Excel file with load profile data and the APP calculates the hours of use for each customer. The associated Excel file with the load profile data for testing is attached in the folder.
