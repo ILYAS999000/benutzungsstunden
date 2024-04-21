@@ -1,0 +1,40 @@
+<!-- clean_results.html Datei-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bereinigte Ergebnisse</title>
+</head>
+<body>
+    <h1>Sortierte und bereinigte Ergebnisse anzeigen</h1>
+    <a href="/results/">|---Bereinigte Ergebnisse anzeigen---|</a>
+    <a href="/admin/">|---Admin Seite zum Editieren---|</a>
+    <a href="/admin/upload/">|---weitere Excel-Datei uploaden---|</a>
+    <table>
+        <thead>
+            <tr>
+                <th>|---Nummer des EDM-Profils---|</th>
+                <th>|---Profilwerte vorhanden bis---|</th>
+                <th>|---Höchster kW-Wert---|</th>
+                <th>|---Zweithöchster kW-Wert---|</th>
+                <th>|---Benutzungsstunden (Höchster kW-Wert)---|</th>
+                <th>|---Benutzungsstunden (Zweithöchster kW-Wert)---|</th>
+                <th>|---Jahr/Schaltjahr/kein Jahr---|</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in cleaned_data %}
+                <tr>
+                    <td>{{ data.customer_number }}</td>
+                    <td>{{ data.year }}</td>
+                    <td>{{ data.highest_kw }}</td>
+                    <td>{{ data.second_highest_kw }}</td>
+                    <td>{{ data.usage_hours_highest_kw }}</td>
+                    <td>{{ data.usage_hours_second_highest_kw }}</td>
+                    <td>{{ data.year_description }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

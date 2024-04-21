@@ -1,0 +1,102 @@
+2023-10-21 12:42:54,945 - django.request - WARNING - Not Found: /favicon.ico
+2023-10-21 12:42:57,474 - django.request - ERROR - Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\views\decorators\cache.py", line 63, in _wrapper_view_func
+    add_never_cache_headers(response)
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\cache.py", line 292, in add_never_cache_headers
+    patch_response_headers(response, cache_timeout=-1)
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\cache.py", line 283, in patch_response_headers
+    if not response.has_header("Expires"):
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'has_header'
+2023-10-21 12:43:45,592 - django.utils.autoreload - INFO - C:\Entwicklung\IHK\microservice_benutzungsstunden\berechnung_benutzungsstunden\altetasks.py changed, reloading.
+2023-10-21 12:43:49,880 - django.request - ERROR - Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\views\decorators\cache.py", line 63, in _wrapper_view_func
+    add_never_cache_headers(response)
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\cache.py", line 292, in add_never_cache_headers
+    patch_response_headers(response, cache_timeout=-1)
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\cache.py", line 283, in patch_response_headers
+    if not response.has_header("Expires"):
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'has_header'
+2023-10-21 12:44:13,679 - django.utils.autoreload - INFO - C:\Entwicklung\IHK\microservice_benutzungsstunden\berechnung_benutzungsstunden\altetasks.py changed, reloading.
+2023-10-21 12:44:42,004 - django.utils.autoreload - INFO - C:\Entwicklung\IHK\microservice_benutzungsstunden\berechnung_benutzungsstunden\altetasks.py changed, reloading.
+2023-10-21 12:47:25,848 - django.request - ERROR - Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\views\decorators\cache.py", line 63, in _wrapper_view_func
+    add_never_cache_headers(response)
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\cache.py", line 292, in add_never_cache_headers
+    patch_response_headers(response, cache_timeout=-1)
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\cache.py", line 283, in patch_response_headers
+    if not response.has_header("Expires"):
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'has_header'
+2023-10-21 12:47:27,167 - django.request - ERROR - Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\views\decorators\cache.py", line 63, in _wrapper_view_func
+    add_never_cache_headers(response)
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\cache.py", line 292, in add_never_cache_headers
+    patch_response_headers(response, cache_timeout=-1)
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\cache.py", line 283, in patch_response_headers
+    if not response.has_header("Expires"):
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'coroutine' object has no attribute 'has_header'
+2023-10-21 12:49:07,612 - django.utils.autoreload - INFO - C:\Entwicklung\IHK\microservice_benutzungsstunden\berechnung_benutzungsstunden\altetasks.py changed, reloading.
+2023-10-21 12:52:33,587 - django.request - ERROR - Internal Server Error: /admin/upload/
+Traceback (most recent call last):
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\decorators.py", line 134, in _wrapper_view
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\views\decorators\cache.py", line 63, in _wrapper_view_func
+    add_never_cache_headers(response)
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\cache.py", line 292, in add_never_cache_headers
+    patch_response_headers(response, cache_timeout=-1)
+  File "C:\Entwicklung\IHK\microservice_benutzungsstunden\venv\Lib\site-packages\django\utils\cache.py", line 283, in patch_response_headers
+    if not response.has_header("Expires"):
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'has_header'
+2023-10-21 12:54:47,912 - django.utils.autoreload - INFO - C:\Entwicklung\IHK\microservice_benutzungsstunden\berechnung_benutzungsstunden\altetasks.py changed, reloading.
+2023-10-21 12:55:22,556 - django.utils.autoreload - INFO - C:\Entwicklung\IHK\microservice_benutzungsstunden\berechnung_benutzungsstunden\altetasks.py changed, reloading.

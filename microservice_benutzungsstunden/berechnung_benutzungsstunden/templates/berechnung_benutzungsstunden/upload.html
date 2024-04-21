@@ -1,0 +1,19 @@
+<!-- upload.html Datei -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel-Datei hochladen</title>
+    <a href="/admin/">|---Admin Seite zum Editieren---|</a>
+    <a href="/results/">|---Bereinigte Ergebnisse anzeigen---|</a>
+    <a href="/clean-results/">|---Sortierte und bereinigte Ergebnisse anzeigen---|</a>
+</head>
+<body>
+    <h1>Excel-Datei hochladen</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Hochladen</button>
+    </form>
+</body>
+</html>
